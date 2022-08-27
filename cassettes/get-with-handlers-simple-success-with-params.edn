@@ -1,0 +1,117 @@
+{:calls [{:arg-key {:query-string "q=asd",
+                    :request-method :get,
+                    :server-name "www.google.com",
+                    :server-port nil,
+                    :uri "/search"},
+          :return {:body #vcr-clj/input-stream
+                   ["H4sIAAAAAAAC/+xay27kxhXd6ysqNBzYRrf6JWnaklrOzNjJAHn4MeMkXglFspossciiWcVWdwc"
+                    "C/AvzAQmgpRZeDTCLILvG/Ii/JKeKZJPsbvXI42RhYDCwxMetW/dx7rm3KJ//5vMvn7747qsvSK"
+                    "hjcXFufhJBk2DihLlDfJ5NHKEzB28Y9S/OlV4IRhKZeGziPP16/tffj7/4ZujOj4InQf9R/kj+/"
+                    "Wvn4oB2CD0VPInM7xlXXDPfXFJP8xkzV6GcsYz844AQTwqZnZIPBvTRiI3P8ESzue76zJMZ1Vwm"
+                    "p2Y7dnZwc+BKf2HXTGWiu1Mac7E4Jd9IV2rZKX59ntGp7jxjYsY092jnccap6CiaqK5iGZ+u9VP"
+                    "BA6j2WKJZZp52Y9W1bxRfsi71r3KlT8mg3/+weCuX+15fMzfi+l6Jm4NDV86t7a7MfAaHB+mcKC"
+                    "m4Tz7wqe+x/pl9OTfLeRKcloJdPDpbL+tm1Oe5OiXj1D6NaRZwuDE8gjaaa0mOy4vi7bx7zX0dQ"
+                    "r7fL1ak1PeterPEGBYOWmkYeubfWRVk40slS0i4SEOWYPt6h8b+fesnov6UCiFzXbhLvSjIZJ74"
+                    "3WqL6Xj66ZS2jBkMsX5wku5yddBv+op4aC3j6vHNQdohhyp38dODwUjnC+QAdxt2VJsfT09GJ+O"
+                    "zDQcHpYPALOuGjAchUjcsNxZMAyNdlVLPGts/HBYvmkASbKqt/wq3PLF7Nt9nRmchQGfsSQ4nkq"
+                    "cwgGLHrLPz6V9olsnr517GWKGvzGUFujIgWqZFAK12D6iT8YYmu3rTrXXwx0Xu2grHpb6Eznhg6"
+                    "/Cppuo7hDN32f3e0UPXbt2K+XQ6Ld6FlGcmxIVMB08SWd/vYoN7LdhU1qit7raSckPStG4HMmsO"
+                    "qqq0oJ4tV3iS5rqprCIAmqaMZhT0WNPWoUvVDisrfJfQ8/JMmS1SyStK+mU0twPe9tF1iYPjvk1"
+                    "6BYvRSZtSbEkeVdBogaWijp0p2FHv02mjrCsQt2q9Em0yoX1h+81pQZQVpVUWD45LMxjqJGuR67"
+                    "BBrp+O+sPjHbxyXMa92notV0WgIrm179V+hsrLFgZI+QxFJsAOAWs1tq02hpgwGy6rZCqlLiVbh"
+                    "XxSblK+p00JQzI1G1+H6KuWlizYrjOatlbCtvJSMcE8Xd9b+LZK9NGx+bcJm4pUzECQw7+Ue1Fp"
+                    "s89VKihwyRNLmlPB2h2paggfVIunMos79W1hU8M7ECspN9wltGkpzGpGvqmn7ob9Xb3wUb9sHS0"
+                    "F4WAjl+GwnjXKNgjzLIOjIQAQ/692Xre4wY6eXf7or+vw3j6Tu9bC/asxAGSt4Nm671qxwbBZpK"
+                    "ekWZgFWLedvjmYciZ8hKgVnopH18ZYUUFdJrZSZ95o3z5GLRl+E5V32PWsmYFwaLp/dTPqkPCoB"
+                    "ZaRd9Q/GjVx2b+3cS+K8W3XtPAANh31i/EnzaSfe/pPMpDt9rvJKg1Ajk5KQB70PvmEFG2fqKLv"
+                    "f4SyIWxO4xRzNyWxdDkufDbjHvv4kHzSO/hdzHxOiUzEolpEE5981NjgaIwNPi4TUs7QjYwbTq+"
+                    "cusF/FU2Yim3JrpE5agjzOGh7CmmIllt/elKL7urC1VRTDTVW5UbD3ABnv0iilQy5z75MnseY9P"
+                    "5m9JTya3aqcGeFHzJjbTObK6QX7dOxd8+fMb00VKz3vO+0cmPQ8oDMj+rMvyVRj4ZVoiocIvtU9"
+                    "OBNN2lCsgm6ROpfgLnh8V7MbSRiH+DKPY8HHz4Ea+saLDKKgc0Ln7TgVodlMB42jCzgVkTmnfD2"
+                    "rhjbh9N6z5uD856dmC7ONdf49Wdw8ZuXWoM4Z6tb1xWruxQs8gcpA7DIH1nG1JuX4er18rxXLDi"
+                    "P0QFJQmMc72ecXacy0w4pT1YThydcY9LsKnAym6BjIuE8zuPywXGniPCk4Kcihs7FufkUQDImJo"
+                    "4KodDD8MGh0yFhxqYTp9e7vr4+DKxROMXFvSmKBu9xhpNY3Ss+PRgUXZz7fEY8QZWCLnvSggAt9"
+                    "YRap+q016OehwFUq6bK5ywzJoGXefJZKCZh/ltw6pnxjCc5m1RrNywpwPHZ9x+OPqfKt0sCyiae"
+                    "2zVRdypTGoTVLmzn4gm7whCT6IgtV3fqvEfhEJxoeYKhAG4A10Rl3joeSoM3PGsGj80w1HNxsjD"
+                    "ts1dYKNBkeoN54+7SNq7Lk/F8OPbTwzQJHKMSHfJnah3u10qGc6dMtXMydspDxMQZ4poKXBQIM5"
+                    "+NBvtBiBEICR60wtE4yDsXj0m0eo1jDuL35mWUYS6japmsbsVVHkHLVvJTzCMeZ63ka+aFOGki9"
+                    "3DXkzLC7xIEuY4vlcwzj01yz3WIBkGZaF26mEEj56KQ7kZUm9QRpJDQJaE+1RLPTs9zYeB9UTqj"
+                    "llIEsA0xXt0qGRGXL7VUqx/NLbWrI5q5FFWd2Udn5z2sNhraSyPkBsNhoSRZyBjIKuIAHaxDuBB"
+                    "MzxiZre58VkALwcDgGsdMdHDpKSqwGj8Lm8mMK7WkqztEX2GsJmrJYpcltQHUbLBcvU7U6i4gTO"
+                    "BOA7mIuo8lq7uERaUqnHVDJhYWSWqpebS6jRJqshGv7jJjILqBeRAz45GgaRUAD/tfAQOrVzAyl"
+                    "MECVBtBta6zCl3Gk1Y0QIEIdofMqMBp2EhjKU3IFZ1Bc0i1wQJbssjYuLlYVrbx5M1L49vqTh8W"
+                    "XveQvWeU/PTDvx4vyeo1AsQUPJ/KwIae/vTDPzEfhkwXCzHTAsDA6FJfmU+cUSTNAa2BT+ugjDJ"
+                    "KuCJTJtpYrbF0L45W/77aMh+KrgTDpjayZmXhdxs/IcekbUVs3C3pGKFqDeoE+u4imSzU6jaAQV"
+                    "WymhhkeCgWqDJgxQx7ph40FTHdVkqbDq5eceIyk+zCMFiNXKXIZrJX/T6rH7pBI5mGRXZlNMfsV"
+                    "UbsYTltpCphMaaSwKSwYU/CLeAyY2bJa3yd/cOS4t2ssOixVbIvulmRnqJgZ4B2CklgMBcGJiDM"
+                    "FH0fAdIsMp+H1ktl3LE4ivTqxxmJTENH7DiJc1RMzBKmUeOGJYKlXcRwGTEDAdR4AQtLRa+WkTS"
+                    "Q58RU9iG51+JGwiwXN21+i6UV6C20QU6JVPdtvheIRk0TN5a27qyAXMIiU+4sWDDXYsoQpYabGD"
+                    "/g/G2iqOsSu78wtVfVE1X2tsEx9C3uI/DQvjCMsyTMNXGmxAV/gmAUuKAVeKCqgEgrA2BunPDqV"
+                    "K+lynZS5dPIfWzxngt4ZyK0ySUlkRDMiTvIpyTbrYrCzvAwWegidwgVTCiZG6Kmb8NC47yBfx0P"
+                    "63uSLLhxki3xZvWfyHqkGthHIdpSfFHVR7PuIlOI2CLeqMB1MfHEnAVWtx5fvQrlklzlhum3M1u"
+                    "wqG2EIt4iCdAyE7Z/ZW9eChO5ACNBL834jHoLLaVQVT+DIQicu7rN0JTAAgiATQBs5ofbQ9uOKR"
+                    "3zjj2/mL9zyaSeSTDQKAw0rcESqx04oUPpT5yvvnz+ApOaGd0nTjXYl8ceMxna73V6keItjiA+w"
+                    "+hczOiucAxic3Mpv7/E8QTzrF5MMztC+TlXmHtZdjnsD4f98XB02B9epv29KudrjeO9ckG99bNv"
+                    "90rGa8H9O6feWlBl6V7Ram5fL3jL/D7B9L5XYVh7E+Z7JfN5vas9BOwTxuR9yWQdAJ3lmwtU7sZ"
+                    "cryXu61u7zhrlr+YJFvN3xmnXflnbo6yHfmmg+h6w7wG7F7BTKtTbVyhvH8K35Wmq3rUk1sP5Ly"
+                    "+IWlVdDg+h+ebHmP8t5Rffgd4X0PsC+tUW0PtqeF8Nv6b5Z4vwd/4fNDu+Mu/AtC8+e5cPymLy7"
+                    "Ft7VX+XTr0JIGAvEe+JibO9Md+HB7tC0fwfaZyL3SeuxsfnLa+LP7/8jG4Wi7p6A6axsvxjPceD"
+                    "9t/vGxi7+C8AAAD//9ybzU8bVxDA/xW0hyo9WChSL1WjlYB8ijaKCm2l3h54sV+93nV2bUdwWmM"
+                    "aIgJqmwQIARFIbGOMMcZ2+DBgDoZDL2gdiQLqZbaKaFO1/0Pn2U6aiMyWc4Vk2eY38+bNzJu3+3"
+                    "Z8SQ8J1W+izfokua3P4AHGNPNSa+OfZ6ABSWYDP08ZPay/l2kU1mNKco8ummACnGJ6mST3MnH7P"
+                    "0ciqGZvVNmfxzgyEuqX5I7+oMEUH4V4cajLwhgSwJVwWYmEzV4/hQi/KooZJuejaJ5r7ZJ8RfOp"
+                    "3PR/pPWYoc8ufKWJhsuWTq75vHrwY1qWEOwKs7Bi0nLooCtmiFVXdbUp2PjIXEQ8n1z89IzY5wx"
+                    "9rDNxEMl7XaSxICkRM8AMMh59HHPrKld5CBWSkOHpaEPMYFp1gXGzaUUH05iXHr3POCtytd7iRY"
+                    "r4MPTXmMJVn0IiaK+PqYqPtNaP4143oizsks4ci/oNzYvVweSkbwbQfdzk30bUCKkHQ1pdNlUF0"
+                    "5XUg0VavoFLhzPaxeYdSe7k5h3mx1hQkBqVZJWFoxwXGWmSiqOpXAlHony/SPooIjWbmxSvHGS+"
+                    "fmZQaBCn+IWClxXkiBqG5KYierSY5iWLkaZLsqYb9LKOYLXSf7MeD/QoJBPCoUK66hLZUNjT/qU"
+                    "k39KNcMQXqWbeZF67wUyukpmHYre6PyDW+ILRggZOy9CD1WfaXpwM7m1JNv23eYgEApLcpepRRd"
+                    "sbcymeJs7erGP78+6g4cESgWUK90L0VcsFVRQMt1LRx9GCiB4k/Wpi7nVFXfM8ijq6uVPe1XwtX"
+                    "3NnazhMkaIxvru6bQSqC+RCV3CyB+MHW/i3frBzsHlQPsiSOxjuCPaq/cLesvM1qxavxewyvvuB"
+                    "5H2Cr40gX6xLCH6DogO4Z9nl2v2aZRdr9+312rCdJ1mM5MtpO2+v2/mX0y21wdqEvVWbIBcX4vY"
+                    "24mU0vmRX7B13U4JanUcODa/YW2RWYumy54QjGvrsTTpVJBkpy951HzkiLH2ObrDQYZPCztqocD"
+                    "LpCCzlTjzpxH904nNOfNKJP3fiT5z4Y7IkoZcP84fzhy8Ok79Yh8nDNbKeYq08enb001H6aOooQ"
+                    "xqMEzteOF49Xjm5R14g1ZmToeNN5NInI8eL5PrA6ZzE6vqKv46S+oI46ZE55960c2/ZGZkmayHm"
+                    "KyTSkByGRAYSFUgUIGmRQTcEnYNEvo7OuaB+LtBNSOzW1Y9BIuVCMyztkPoeUhuQysGCBakVSG1"
+                    "DqkKuG00IZJGA1CCkCi5oCB0G6Qws5iE9A+kKpLOwSFriw3yFzCQsxSAzA5k8ZCqQScASKaALn2"
+                    "QfQnYestuQ3YXsXbLYCEtyCcjlILcLuRKsjJGoiEs+Aat3IV+A1RjkJ/GVTHHhjcI4FNJQHBOvh"
+                    "XkyhFjMoJSDUgFKK1CqQKkIpUFyTYoorsdh/QGsDcL6EKztkBb7Ed0cgo1J2HhGXhLgHgXlJJQL"
+                    "UF4gTcT151hTjrXtWI8cq1x/T1bcgMj02Zjz9IEz+9h5OujMPiFRHP3v8Zk/Xyz/NVGioO8wSKe"
+                    "TydOZ7B+ZWfKCzO/puCnJv+esVzsPX20sn04Mu6Dd3yC6GXu99Og/0eud76PNzf91aup0Y+WdPb"
+                    "O1cc3kduOuq97zHwn8v45C8B77ra6L7ocVN/sVNSoeloonmGF9oNmuIr09XThPd1LzWeSHG5Lkt"
+                    "ncfbnKjOq+JMRs38+ftfjKCRLuTXI39+yy+a0Axmt0+vOWqooari6IB6L1jg0YTXmv9x4L/AAAA"
+                    "//8DAHhbLUM8OAAA"],
+                   :cached nil,
+                   :chunked? true,
+                   :headers #vcr-clj/clj-http-header-map
+                   {"Accept-CH" "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+                    "Alt-Svc" "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                    "Cache-Control" "no-cache, no-store, max-age=0, must-revalidate",
+                    "Connection" "close",
+                    "Content-Encoding" "gzip",
+                    "Content-Security-Policy" "script-src 'report-sample' 'nonce-VVhH75SiXc5v37K84eOSxQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/ConsentHttp/cspreport;worker-src 'self'",
+                    "Content-Security-Policy-Report-Only" "require-trusted-types-for 'script';report-uri /_/ConsentHttp/cspreport",
+                    "Content-Type" "text/html; charset=utf-8",
+                    "Cross-Origin-Opener-Policy" "unsafe-none; report-to=\"ConsentHttp\"",
+                    "Cross-Origin-Resource-Policy" "same-site",
+                    "Date" "Sat, 27 Aug 2022 10:58:42 GMT",
+                    "Expires" "Mon, 01 Jan 1990 00:00:00 GMT",
+                    "Permissions-Policy" "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-platform=*, ch-ua-platform-version=*",
+                    "Pragma" "no-cache",
+                    "Report-To" "{\"group\":\"ConsentHttp\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/ConsentHttp/external\"}]}",
+                    "Server" "ESF",
+                    "Transfer-Encoding" "chunked",
+                    "Vary" "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+                    "X-Content-Type-Options" "nosniff",
+                    "X-Frame-Options" "SAMEORIGIN",
+                    "X-XSS-Protection" "0"},
+                   :http-client "-- clj-http cannot serialize instances of org.apache.http.client.HttpClient --",
+                   :length -1,
+                   :protocol-version {:major 1, :minor 1, :name "HTTP"},
+                   :reason-phrase "OK",
+                   :repeatable? false,
+                   :status 200,
+                   :streaming? true,
+                   :trace-redirects ["https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dasd&gl=HU&m=0&pc=srp&uxe=none&hl=hu&src=1"]},
+          :var-name "clj-http.core/request"}],
+ :recorded-at #inst "2022-08-27T10:58:42.245-00:00"}

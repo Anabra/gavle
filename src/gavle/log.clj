@@ -2,6 +2,8 @@
   (:require
    [gavle.util :as util]))
 
+;; TODO: explore https://github.com/clojure/tools.logging
+
 (defn strip-sensitive-data
   [params]
   (dissoc params :headers))

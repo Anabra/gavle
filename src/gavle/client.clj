@@ -15,7 +15,7 @@
            wait-time       1000
            result          og-result]
       (cond
-        (<= remaining-tries 0)
+        (< remaining-tries 0)
         (log/error! "Maximum number of retries reached, returning nil")
 
         (failed? result)

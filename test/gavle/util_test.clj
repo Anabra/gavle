@@ -22,3 +22,22 @@
    "update non-existent nested key (entire nested structure missing)"
    {:a "x"} [:a :b] keyword
    {:a "x"}))
+
+(deftest assoc-front
+  (do-template
+   [title m kvs expected]
+   (let [actual (apply (partial sut/assoc-front m) kvs)]
+     (testing title
+       (is (= expected actual))))
+
+   "assoc into empty"
+   {} [:a 1]
+   {:a 1}
+
+   "assoc multiple"
+   {} [:a 1 :b 2]
+   {:a 1 :b 2}
+
+   "asoc multiple to non-empty"
+   {:a 1} [:b 2 :c 3]
+   {:a 1 :b 2 :c 3}))
